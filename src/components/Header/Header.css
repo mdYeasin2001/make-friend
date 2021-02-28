@@ -1,0 +1,56 @@
+.header nav{
+    display: grid;
+    grid-template-columns: 300px auto;
+    align-items: center;
+    padding: 0px 100px;
+    background: #000;
+    color: white;
+    position: sticky;
+    top: 0;
+
+}
+
+.nav-logo a{
+    text-decoration: none;
+    color: white;
+}
+.nav-logo a h1 span{
+    color: tomato;
+}
+.nav-logo a h1{
+    font-size: 25px;
+}
+.header nav .nav-links{
+    margin-left: auto;
+}
+.header nav .nav-links a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 0px 20px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all .3s;
+}
+.header nav .nav-links a:hover{
+    background: gray;
+}
+.introduction-area{
+    background: url('https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8bmV0d29ya3xlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat;
+    height: 90vh;
+    
+    background-size: cover;
+    background-position: center center;
+    color: #ffffffb4;
+    text-align: center;
+}
+.introduction-area div{
+    padding-top: 250px;
+}
+.introduction-area div h1{
+    font-size: 40px;
+    color: tomato;
+    margin: 0;
+    padding: 0;
+}

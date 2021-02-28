@@ -1,0 +1,10 @@
+.users{
+    display: flex;
+}
+.users-data{
+    width: 70%;
+    margin-left: 100px;
+}
+.users-area-title{
+    text-align: center;
+}
